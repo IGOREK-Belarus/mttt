@@ -27,7 +27,7 @@ void prepareGame(){
     printf("\nHow many rows should be?");
     scanf("%d", &numberOfRows);
     printf("\nHow many columns should be?");
-    scanf("%d", numberOfColumns);
+    scanf("%d", &numberOfColumns);
     gameStatus = 0;
 }
 
